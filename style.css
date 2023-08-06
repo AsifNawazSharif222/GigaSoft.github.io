@@ -1,0 +1,3831 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+/* Navbar Section */
+.navbar-Sec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 0px 0px;
+    height: 89px;
+}
+
+.navbar-Sec .cusnavbar{
+    height: 89px;
+}
+.cusnavbar .container .gigabitesoft-logo img {
+    width: 252px;
+    height: 36.2px;
+}
+
+.cusnavbar .container .navbar-collapse ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    margin-left: auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+.cusnavbar .container .navbar-collapse ul  li a{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.cusnavbar .container .navbar-collapse ul  li a:hover{
+    text-decoration: underline !important;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    text-decoration: underline;
+    color: rgb(0, 0, 0) !important;
+    cursor: context-menu;
+}
+
+.cusnavbar .container .navbar-collapse ul li button {
+    background-color: #F8F8F8;
+}
+
+.cusnavbar .container .navbar-collapse ul li button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 34px;
+    gap: 8px;
+    text-decoration: none;
+    width: 106px;
+    height: 37px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    border-radius: 50px;
+}
+
+.cusnavbar .container .navbar-collapse ul li button a:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition-duration: 500ms;
+    outline: 0 solid transparent;
+    transition: ease-out;
+    text-decoration: none !important;
+}
+
+/* Footer */
+.footer-section {
+    margin-top: 100px;
+    width: 100%;
+    background: #01575A;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.footer-section .footer-con .footer-body .row .company-contact img {
+    width: 245px;
+    height: 35.32px;
+}
+
+.footer-section .footer-con .footer-body .row .company-contact{
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-section .footer-con .footer-body .row .company-contact p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 4px;
+}
+
+.footer-section .footer-con .footer-body .row .company-contact p span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-section .footer-con .footer-body .row h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.footer-section .footer-con .footer-body .row p {
+    margin-bottom: 0px !important;
+}
+
+.footer-section .footer-con .footer-body .row p a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: medium;
+}
+
+.footer-section .footer-con .footer-body .row p a:hover {
+    text-decoration-line: underline !important;
+    color: #F8F8F8;
+    font-weight: 500 ;
+}
+
+.footer-body .row .company p a.active {
+    cursor: context-menu;
+}
+
+.footer-bottom .row .footer-copyright h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Buttons */
+.started-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    width: 183px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.get-started-btn a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.started-btn:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition-duration: 500ms;
+    outline: 0 solid transparent;
+    transition: ease-out;
+}
+
+.learn-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    width: 146px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.learn-y-btn a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.learn-btn:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition-duration: 300ms;
+    transition: ease-out;
+    color: #FFFFFF;
+}
+
+.learn-white-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 33px;
+    gap: 8px;
+    width: 146px;
+    height: 41px;
+    border: 1px solid #1B8E93;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+
+}
+
+.learn-wh-btn a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4D4D4D;
+}
+
+.learn-white-btn:hover {
+    color: #FFFFFF !important;
+    background: #1B8E93;
+    border: 1px solid #1B8E93;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition-duration: 300ms;
+    transition: ease-out;
+}
+
+/*1. HomePage */
+
+/* 1. homePage-Qualified Leads Section/qualified-Cont */
+
+.hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+    background-image: url(images/24by7.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    width: 168.04px;
+    height: 125px;
+    position: absolute;
+    margin-left: 280px;
+    margin-bottom: 45px;
+}
+
+.first-sec .qualified-fluid {
+    padding: 0px !important;
+}
+
+.hero .qualified-Cont .leftQ-Con {
+    margin: 0;
+    padding: 0;
+    margin-top: 110px;
+}
+
+
+.hero .qualified-Cont .leftQ-Con h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin: 30px 0px;
+}
+
+.hero .qualified-Cont .leftQ-Con ul {
+    margin-top: 10px;
+}
+
+.hero .qualified-Cont .leftQ-Con ul li {
+    display: flex;
+}
+
+.hero .qualified-Cont .leftQ-Con ul li img {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    margin-top: 2px;
+}
+
+.hero .qualified-Cont .leftQ-Con .mob-h5 {
+    display: none !important;
+}
+
+.hero .qualified-Cont .leftQ-Con ul li span {
+    margin-left: 10px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4D4D;
+}
+
+#hero .qualified-Cont .rightQ-Con .image-home img.home-mobile {
+    display: none;
+}
+
+.hero .qualified-Cont .leftQ-Con h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 66px;
+    color: #1B8E93;
+}
+
+
+.qualified-buttons {
+    margin-top: 30px;
+}
+
+.rightQ-Con {
+    margin: 0;
+    padding: 0;
+}
+
+.rightQ-Con .image-home .home-img {
+    filter: drop-shadow(-25px -25px 106px rgba(27, 142, 147, 0.25));
+}
+
+/* 2. homePage-Expert Quality Container */
+
+.first-sec {
+    position: relative;
+    top: 88px;
+    margin-bottom: 200px;
+}
+.expert-quality-Sec {
+    margin-top: 50px;
+}
+
+.expert-quality-Con .expert-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expert-quality-Con .quality-card .expertImg {
+    filter: drop-shadow(10px 10px 60px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.expert-quality-Con .expert-Title h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.expert-quality-Con .expert-Title p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.expert-quality-Con .quality-card {
+    margin-top: 80px;
+}
+
+.expert-quality-Con .row .expertT h3 {
+    padding-left: 16px;
+    width: 480px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1B8E93;
+}
+
+.expert-quality-Con .row .expertT p {
+    height: 116px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.expert-quality-Con .row .expertT {
+    padding: 0px 47px;
+}
+
+/* 3. homePage-Help Section  */
+
+.help-Sec {
+    padding: 80px 0;
+    margin-top: 50px;
+}
+
+.help-Con {
+    background-image: url(images/Get\ Appointment\ Now-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.help-Sec .row {
+    padding: 70px 0px;
+}
+
+.help-Sec h3 {
+    margin-left: 180px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.help-Sec p {
+    width: 589px;
+    height: 36px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 180px;
+}
+
+.help-Sec .help-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    width: 163px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.help-Sec .help-btn a {
+    width: 95px;
+    height: 21px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.help-Sec .help-btn:hover {
+    transition-duration: 300ms;
+    transition: ease-out;
+    color: #FFFFFF;
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.help-Sec .help-buttons {
+    display: flex;
+    align-items: center;
+    padding-left: 93px;
+}
+
+
+/*  4. homePage-What's Different Section */
+
+.different-Sec {
+    margin-top: 50px;
+}
+
+.different-Sec .diff-learn-btn-b {
+    display: none !important;
+}
+
+.different-Con .row .diff-Con_One {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.different-Con .row .diff-Con_One h3 {
+    width: 411px;
+    height: 106px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    color: #4D4D4D;
+}
+
+.diff-btn .btn-learn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    width: 146px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.diff-btn .btn-learn a {
+    width: 78px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.different-Con .row .diff-Con-Two .diff-Two{
+    padding: 8px 0px;
+}
+
+.different-Con .row .diff-Con-Two h6 {
+    width: 172px;
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 0px !important;
+}
+
+.different-Con .row .diff-Con-Two .diff-Two p {
+    width: auto;
+    height: auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 21px;
+    margin-bottom: 5px !important;
+    margin-top: 3px !important;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+
+
+/*5. homePage-Bussiness Section */
+
+.bussiness-Sec {
+    margin-top: 150px;
+}
+
+.bussiness-Sec .bussiness-Con .bussiness-body-row {
+    padding: 0px 200px;
+}
+
+.bussiness-Sec .row h4 {
+    width: auto;
+    height: auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.bussiness-Con .bussiness-body .bussiness-features .expand-reach-mob,
+.bussiness-Con .bussiness-body .bussiness-features .self-sehedule-mob {
+    display: none;
+}
+
+.section-heading-mob{
+    display: none !important;
+}
+
+.bussiness-Con .bussiness-body .bussiness-features h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.bussiness-Con .bussiness-body .bussiness-features p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.bussiness-Con .bussiness-footer .bussiness-footerT h6 {
+    margin-top: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.bussiness-Con .bussiness-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bussiness-Con .bussiness-btn .btn-started {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    width: 183px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.bussiness-Con .bussiness-btn .bussiness-button button a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 115px;
+    height: 21px;
+}
+
+
+/* 6. homePage-Choose Section */
+
+.choose-Sec {
+    margin-top: 150px;
+}
+
+.choose-main-Con .choose-Con-body .ord-Three {
+    padding-left: 65px;
+}
+
+.choose-main-Con .choose-Con-body .ord-Two {
+    padding-left: 60px;
+}
+
+.choose-Sec .choose-learn-btn-b {
+    display: none !important;
+}
+
+.choose-main-Con .row .choose-Con_One h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    color: #4D4D4D;
+}
+
+.choose-main-Con .row .choose-Con ul li::before {
+    content: "•";
+    color: #1B8E93;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    font-size: 28px;
+}
+
+.choose-main-Con .row .choose-Con ul li span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4D4D4D;
+}
+
+
+/* 7. homePage-blog Section */
+
+.blog-Sec {
+    margin-top: 150px;
+}
+
+.blog-Sec .blog-Con .blog-T {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-Sec .blog-Con .blog-T h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    color: #4D4D4D;
+}
+
+.blog-Sec .blog-Con .blog-B .blogs-Card .card-slide {
+    background-size: cover !important;
+    border-radius: 10px !important;
+    border: none;
+}
+
+.blogs-Card .card-slide .blogCard-text h6 {
+    width: 351px;
+    height: 21px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #1B8E93;
+}
+
+.blogs-Card .card-slide .blogCard-text p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.blog-Sec .blog-Con .blog-B .card-slide:hover .image img {
+    transform: scale(1.1);
+}
+
+.blog-Sec .blog-Con .blog-B .card-slide:hover {
+    border-radius: 10px !important;
+}
+
+.blog-Sec .blog-Con .blog-B .card-slide .image {
+    overflow: hidden;
+    border-radius: 10px !important;
+
+}
+
+.blog-Sec .blog-Con .blog-B .card-slide .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    border-radius: 10px !important;
+}
+
+
+/*2. AboutPage  */
+
+/* 1. aboutPage-Get-to-konow-Leads Section*/
+.hero .about-Con .left-about-Con h1 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px !important;
+    line-height: 55px !important;
+    color: #4D4D4D;
+    position: relative;
+    top: 0px;
+}
+.hero .about-Con .left-about-Con h1.about-mobile-text {
+    display: none !important;
+}
+
+.hero .about-Con .left-about-Con h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    top: 0px !important;
+    color: rgba(77, 77, 77, 0.75);
+}
+
+.hero .about-Con .right-about-Con {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+/* 2. aboutPage-Guninue-Sec */
+.genuine-Sec {
+    position: relative;
+    margin-top: 210px;
+    /* margin-bottom: 160px; */
+}
+
+.genuine-Con .expert-quality .expertA p {
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    color: #1B8E93;
+}
+
+.genuine-Con .expert-quality .quotedA p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.genuine-Con .expert-quality .quotedA {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+/* 3. aboutPage-Industries Section  */
+.industries-Sec {
+    position: relative;
+    margin-top: 80px;
+}
+
+.industries-Con .row .Industries-title h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    color: #4D4D4D;
+}
+
+.industries-Con .row .Industries-title p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(77, 77, 77, 0.8);
+    margin-bottom: 45px !important;
+}
+
+.industries-Con .row .Industries-Features .Industries-F h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4D4D4D;
+}
+
+.industries-Con .row .Industries-Features .Industries-F p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.industries-btn-b {
+    display: none !important;
+}
+
+
+/* 5. aboutPage-customer-Section */
+
+.customer-Sec h2 {
+    width: 761px;
+    height: 106px;
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.customer-Sec .customer-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.customer-Sec .customer-body .customer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 302px;
+    height: 307px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 10px;
+}
+
+.customer-Sec .customer-body .customer-card .feature-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.customer-Sec .customer-body .customer-card h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: #4D4D4D;
+}
+
+.customer-Sec .customer-body .customer-card p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    width: 262px;
+    height: 72px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+
+
+
+/* Service-Page */
+
+/* 2. service-Page leads Section */
+
+.leads-Sec {
+    margin-top: 250px;
+}
+
+.leads-main-Sec .leads-Con-body .leads-Con_One h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px !important;
+    line-height: 45px !important;
+    color: #4D4D4D;
+    margin-bottom: 12px;
+}
+
+.leads-main-Sec .leads-Con-body .leads-Con_One p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.leads-main-Sec .leads-Con-body .leads-Con_One .lead-p-mob {
+    display: none !important;
+}
+
+.leads-Sec .row .leads-Con ul li {
+    display: flex;
+    align-items: center;
+}
+
+.leads-Sec .row .leads-Con ul li a {
+    display: contents;
+}
+
+.leads-Sec .row .leads-Con ul li p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: #4D4D4D;
+    width: 195px;
+    height: 28px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    transition: 0.2s linear;
+    text-decoration: none;
+}
+
+.leads-Sec .row .leads-Con ul li a p:hover {
+    color: #1B8E93 !important;
+    margin-right: 25px !important;
+    font-weight: 500;
+}
+
+.leads-Sec .row .leads-Con ul li a p:hover .right {
+    color: #1B8E93 !important;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.leads-Sec .row .leads-Con ul li a .right:hover .lis {
+    color: #1B8E93 !important;
+    font-size: 22px;
+
+}
+
+.leads-Sec .row .leads-Con ul li:hover .right {
+    color: #1B8E93 !important;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.leads-Sec .row .leads-Con ul li a i:hover {
+    margin-left: 5px !important;
+}
+
+.leads-Sec .row .leads-Con ul li {
+    cursor: pointer;
+}
+
+.leads-Sec .row .leads-Con ul li::before {
+    content: "•";
+    color: #1B8E93;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    font-size: 30px;
+}
+
+.leads-Sec .row .leads-Con ul li i {
+    margin-top: 15px;
+    transition: 0.2s linear;
+
+}
+
+
+/* mortgage_service Page  */
+
+.breadCrumb-Sec {
+    margin-top: 140px;
+}
+
+.breadcrumb-item.active {
+    color: #4D4D4D;
+    cursor: context-menu;
+}
+
+.breadCrumb-Sec .breadCrumb-Con nav ol li a span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.breadCrumb-Sec .breadCrumb-Con nav ol li a {
+    text-decoration: none;
+}
+
+.breadCrumb-Sec .breadCrumb-Con nav ol li {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.mortage-Sec {
+    position: relative;
+    top: 60px;
+}
+
+.mortage-Sec .mortage-Con .mortage-title h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 66px;
+}
+
+.mortage-Sec .mortage-Con .mortage-title h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(77, 77, 77, 0.9);
+    padding-top: 15px;
+    width: 628px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.mortage-Sec .mortage-Con .mortage-title p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(77, 77, 77, 0.85);
+    padding-top: 10px;
+}
+
+.mortage-Sec .mortage-Con .mortage-item h4 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.mortage-Sec .mortage-Con .mortage-item p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    color: rgb(45 44 44 / 80%);
+}
+
+
+
+/* Blog-homepage Page */
+.breadCrumbBlog-Sec {
+    margin-top: 140px;
+}
+
+.breadCrumb-Sec .breadCrumb-Con nav ol li span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.blogPage-Sec {
+    position: relative;
+    top: 40px;
+}
+
+.blog-Sec-b {
+    display: none !important;
+}
+
+.blogPage-Sec .blogPage-title h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #4D4D4D;
+}
+
+.blogPage-Sec .blogPage-title .blogImg {
+    height: 526px;
+    background: url(images/blog1.png) center center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    filter: drop-shadow(12px 12px 50px rgba(27, 142, 147, 0.25));
+}
+
+.blogPage-Sec .blogPage-title p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: rgba(77, 77, 77, 0.8);
+    margin-top: 50px;
+}
+
+.blogPage-Sec .blogPage-body h6 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: justify;
+    color: #4D4D4D;
+
+}
+
+.blogPage-Sec .blogPage-body .blogOne-article ol li p,
+.blogPage-body p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+
+
+/* ContactPage */
+
+/* 2. ContactForm Section */
+
+.contact-Con .left-contact h1,
+.contact-Con .left-contact h5 {
+    color: #4D4D4D !important;
+}
+
+.contactForm .label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contact-Con p span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.contactForm .row .contact-form {
+    width: 85% !important;
+}
+
+.contact-Con p {
+    margin-bottom: 0.5rem !important;
+}
+
+.contact-Con p i {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-Con p .fa {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contactForm button {
+    width: 100%;
+    display: block;
+}
+
+#contactForm .form-groupC button span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#contactForm .form-groupC input::placeholder, 
+#contactForm .form-groupC textarea::placeholder, 
+.form-T .form-group input::placeholder{ /* Most modern browsers support this now. */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(77, 77, 77, 0.5);
+ }
+
+
+ #contactForm .form-groupC input{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 4px;
+
+ }
+
+
+ .form-control:focus ,
+ .form-select:focus{
+    box-shadow: none !important;
+ }
+
+ #contactForm .form-groupC input:active,
+ #contactForm .form-groupC input:focus,
+ #contactForm .form-groupC textarea:active,
+ #contactForm .form-groupC textarea:focus,
+ .form-T .form-group input:active,
+ .form-T .form-group input:focus,
+ .form-group-Signup select:active,
+ .form-group-Signup select:focus{
+    border: 1px solid #1B8E93;
+    color: #4D4D4D !important;
+ }
+ #contactForm .form-groupC input,
+ #contactForm .form-groupC textarea,
+ .form-T .form-group input,
+ .form-group-Signup select{
+    color: #4D4D4D !important;
+ }
+
+#contactForm .form-groupC label {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4D4D;
+}
+
+#contactForm .form-groupC input {
+    height: 45px;
+}
+
+.contactForm .row .recptcha {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 4px;
+    width: 628px !important;
+    height: 88px;
+}
+
+.contactForm .row .recptcha .captcha{
+    width: auto !important;
+    height: 88px;
+    padding: 0px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 4px;
+}
+
+.captcha input[type='checkbox']{
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 10px !important;
+}
+
+.captcha label span{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(77, 77, 77, 0.75);
+}
+
+
+#contactForm .form-groupC input,
+textarea {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    width: 628px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 4px;
+}
+
+#contactForm .form-groupC textarea {
+    width: 628px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(27, 142, 147, 0.25);
+    border-radius: 4px;
+    height: 100px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(77, 77, 77, 0.5);
+}
+
+#contactForm .form-groupC button {
+    width: 628px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+#contactForm .form-groupC button:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition-duration: 300ms;
+    transition: ease-out;
+    color: #FFFFFF;
+}
+
+
+/* Login Page */
+.img-signin {
+    background-image: url(images/login-bg.png);
+    height: 100vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.login-Sec .half .row,
+.signup-Con .half .row{
+    height: -webkit-fill-available;
+}
+.form-group {
+    width: -webkit-fill-available;
+}
+
+.form-group label{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4D4D;
+}
+
+
+.login-Sec .half .row .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 30px;
+    width: 510px;
+    height: 634.97px;
+}
+
+.login-Sec .half .row .login-form .login-logo {
+    padding-top: 30px;
+}
+
+.login-Sec .form-body .form-T .remember-password {
+    display: flex;
+    align-items: center;
+}
+
+.half .contents .form-control,
+.half .bg .form-control {
+    height: 44px;
+    width: -webkit-fill-available;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 15px;
+    gap: 10px;
+    border: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.form-T .form-group input {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(77, 77, 77, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 15px;
+    gap: 10px;
+    width: 410px;
+    height: 44px;
+    border: none;
+}
+
+.login-Sec .half .row .login-form h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #1B8E93;
+}
+
+.form-body h5 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #1B8E93;
+}
+
+.login-Sec .half .row .login-form p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.half .btn {
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 100%;
+    color: white;
+}
+
+.half .btn:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    transition-duration: 300ms;
+    transition: ease-out;
+}
+
+.half .btn a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F8F8F8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.half,
+.half .container>.row {
+    height: 100vh;
+}
+
+.half .forgot-pass {
+    position: relative;
+    bottom: 2px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.half .forgot-pass:hover {
+    text-decoration: underline !important;
+}
+
+.checkbox-primary {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.checkbox-wrap {
+    display: flex;
+    align-items: center;
+}
+
+/* input[type="radio"],
+input[type="checkbox"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid rgba(77, 77, 77, 0.5);
+    border-radius: 3px;
+} */
+
+button,
+input {
+    overflow: visible;
+}
+
+input[type='checkbox'] {
+    accent-color:#F66303;
+    background: #FFFFFF;
+    width: 12px;
+    height: 12px;
+    margin-right: 7px;
+    border: 1px solid rgba(77, 77, 77, 0.5);
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type='checkbox']:after{
+    /* border: 1px solid rgba(77, 77, 77, 0.5); */
+    border: none !important;
+    border-radius: 3px;
+}
+
+.form-T .row small {
+    text-align: left;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(77, 77, 77, 0.8);
+}
+
+.form-T .row small a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #4D4D4D;
+}
+
+.form-T .row small a:hover {
+    text-decoration: underline !important;
+}
+
+
+ /* SignUp Page*/
+
+.img-signup {
+    background-image: url(images/signUp-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.form-body-Signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 628px;
+    height: 903.97px;
+    padding: 30px;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.form-body-Signup h5 strong {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #1B8E93;
+}
+
+.form-body-Signup p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.form-group-Signup label {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4D4D4D;
+}
+
+.form-group-Signup input {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 4px !important;
+    color: rgba(77, 77, 77, 0.5) !important;
+}
+
+.signupForm .row .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group-Signup select {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(77, 77, 77, 0.5);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    height: 44px;
+    margin-top: 4px;
+    background-image: url(images/Polygon.png);
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+    background-position-y: center;
+    border: none;
+}
+
+.signupForm .row .form-group-Signup-Submit .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 34px;
+    gap: 8px;
+    height: 41px;
+    background: linear-gradient(87.47deg, #F66303 2.83%, #D85601 96.1%);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.signupForm .row .form-group-Signup-Submit .btn:hover {
+    background: #4D4D4D;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    transition-duration: 300ms;
+    transition: ease-out;
+}
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 1881px) {
+    .img-signup {
+        background-image: url(images/signUp-bg.png);
+        height: 1080px;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .signup-Con .container-fluid>.row {
+        height: 903.97px;
+        position: relative;
+        top: 88px;
+    }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1920px) {
+    .hero .qualified-Cont .left-contact h5 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+        margin-bottom: 25px;
+    }
+
+    .rightQ-Con .image-home .home-img {
+        width: 90%;
+        float: right;
+        height: 690px;
+    }
+
+    .genuine-Con .expert-quality .quotedA {
+        width: 1062px;
+        height: 138px;
+        margin: auto;
+    }
+
+    .first-sec .qualified-fluid {
+        padding: 0px !important;
+    }
+
+    .qualified-Cont .blank-Q-left {
+        width: 16% !important;
+    }
+
+    .rightQ-Con .image-home .about-img {
+        height: 526px;
+        width: 100%;
+    }
+
+    .qualified-Cont .leftQ-Con {
+        width: 30% !important;
+    }
+
+    .qualified-Cont .rightQ-Con {
+        width: 53.4% !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h1 {
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        width: 285px;
+        height: 212px;
+        margin-left: 465px;
+        margin-bottom: 80px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h5 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    /* help- Sec  */
+
+    .help-Sec .help-buttons {
+        padding-left: 110px;
+    }
+
+    .help-Sec .row {
+        padding: 55px 0px;
+        width: 1280px;
+        height: 200px;
+    }
+
+    .help-Sec h3,
+    .help-Sec p {
+        margin-left: 90px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1650px) {
+
+    /* help-Sec */
+    .help-Sec .help-Con {
+        width: 86% !important;
+    }
+
+    .help-Sec h3,
+    .help-Sec p {
+        margin-left: 75px;
+    }
+
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1650px) {
+
+    /* homePage-Qualified Leads Section */
+
+    .qualified-Cont .blank-Q-left {
+        width: 8.333333% !important;
+    }
+
+    .qualified-Cont .leftQ-Con {
+        width: 33.333333% !important;
+    }
+
+    .qualified-Cont .rightQ-Con {
+        width: 58.333333% !important;
+    }
+
+    .rightQ-Con .image-home .home-img {
+        width: 90%;
+        float: right;
+        height: 690px;
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+
+    /* homePage-Bussiness Section */
+    .choose-main-Con .row .choose-Con ul li span {
+        font-size: 16px;
+    }
+     /* help Section */
+
+     .help-Sec .help-buttons {
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 1206px) and (max-width: 1349px) {
+
+    /* aboutPage-Guninue-Sec */
+    .genuine-Con .expert-quality .quotedA {
+        width: 1062px;
+        height: 138px;
+        margin: auto;
+    }
+
+    /* homePage-Qualified Leads Section */
+    .rightQ-Con .image-home .home-img {
+        width: 100%;
+        height: 690px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h1 {
+        font-size: 40px;
+        line-height: 55px;
+
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        width: 256px;
+        height: 190px;
+        margin-left: 395px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h5 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    /* help Section */
+
+    .help-Sec .help-buttons {
+        padding-left: 105px;
+    }
+
+    .help-Sec h3,
+    .help-Sec p {
+        margin-left: 25px;
+    }
+
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1206px) {
+
+    /* homePage-Choose Section */
+
+    .choose-main-Con .row .choose-Con ul li span {
+        font-size: 13px;
+    }
+
+    /* homePage-Qualified Leads Section  */
+
+    .qualified-Cont .blank-Q-left {
+        width: 4.333333% !important;
+    }
+
+    .qualified-Cont .leftQ-Con {
+        width: 37.333333% !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        width: 176.04px;
+        height: 131px;
+        margin-left: 313px;
+        margin-bottom: 47px;
+    }
+
+    .rightQ-Con .image-home .home-img {
+        width: 100%;
+        height: 690px;
+    }
+
+    /* homePage-Expert Quality Section */
+
+    .expert-quality-Con .row .expertT h3 {
+        width: auto;
+        height: auto;
+        font-size: 26px;
+        line-height: 37px;
+    }
+    
+    .expert-quality-Con .row .expertT p {
+        height: auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* help Section */
+
+    .help-Sec h3,
+    .help-Sec p {
+        margin-left: 0px;
+    }
+    .help-Sec p{
+        width: auto;
+    }
+
+    /* homePage-blog Section */
+
+    .blogs-Card .card-slide .blogCard-text h6 {
+        width: auto;
+        height: auto;
+    }
+
+    .blogs-Card .card-slide .blogCard-text h6 {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* footer Section */
+
+    .footer-con .footer-body .row {
+        text-align: initial;
+    }
+
+    .footer-section .footer-con .footer-body .row .company-contact p span {
+        font-size: 10.5px;
+    }
+
+    .footer-section .footer-con .footer-body .row h6 {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /* Navbar */
+    .cusnavbar .container .navbar-collapse ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgb(0, 0, 0);
+        margin: auto;
+    }
+
+   .navbar-toggler{
+    height: 75px !important;
+    }
+    .cusnavbar .container .show {
+        position: absolute;
+        z-index: 1;
+        right: 0px;
+        /* top: 57px; */
+        top: 89px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .cusnavbar .container .user2 {
+        display: block !important;
+    }
+
+    .cusnavbar .container .gigabitesoft-logo img {
+        width: 174.05px;
+        height: 25px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        border-radius: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        margin-top: 5px;
+        width: 25px !important;
+        height: 25px !important;
+        font-weight: 900;
+    }
+
+
+    /* Footer */
+    .footer-section .footer-con .footer-body .row .company-contact img {
+        width: 170px;
+        height: 25.32px;
+    }
+
+    /* Help-Sec*/
+    .help-Con {
+        background-image: url(images/get-appointment-now-tab.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        max-width: fit-content;
+    }
+
+    .help-Sec h3,
+    .help-Sec p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .help-Sec p {
+        margin-left: 172px !important;
+    }
+
+    .help-Sec .help-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px !important;
+    }
+
+    .help-Sec {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    /* 1. homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con h1 {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #1B8E93;
+        position: relative;
+        right: 60px;
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .qualified-Cont .leftQ-Con {
+        text-align: start !important;
+        margin-top: 35px !important;
+        
+    }
+
+    .hero .qualified-Cont .leftQ-Con img {
+        left: 143px;
+    }
+
+    .qualified-buttons {
+        margin-top: 30px;
+        width: 498px;
+        height: 55px;
+    }
+
+    .hero .qualified-Cont .left-about-Con h1 {
+        right: 0px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 500px;
+        height: 215px;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 6px;
+        position: absolute;
+        top: 420px;
+        left: -4px;
+        z-index: 1;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        margin-left: 170px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h5 {
+        margin-top: 10px;
+        width: 535px;
+        /* height: 20px; */
+    }
+    .first-sec {
+        position: relative;
+        top: 87px;
+        margin-bottom: 180px;
+    }
+
+    .rightQ-Con .image-home .home-img {
+        display: none;
+    }
+
+    .rightQ-Con .image-home .home-mobile {
+        display: block !important;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: contain;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* 2. homePage-Expert Quality Section */
+    .expert-quality-Con .expert-Title h3 {
+        font-size: 37px;
+    }
+
+    .quality-card .expertImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expert-quality-Con .row .expertT {
+        align-items: center;
+    }
+
+    .expert-quality-Con .row .expertT h3 {
+        width: auto;
+        height: auto;
+    }
+
+    .expert-quality-Con .row .expertT p {
+        width: 540px;
+    }
+
+    .expert-quality-Con .quality-card .min-Order {
+        order: 2;
+        position: relative;
+        margin: 20px 0px;
+    }
+
+    /* 4. homePage-What's Different Section */
+    .different-Con .row .diff-Con_One h3 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .diff-Con_One .learn-btn {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .different-Sec .diff-learn-Button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .different-Sec .diff-learn-btn-b {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mob-border-diff {
+        border-bottom: 1px solid #1B8E9340 !important;
+    }
+
+    .different-Con .row .diff-learn-btn-a {
+        display: none !important;
+    }
+
+    /* 5. homePage-Bussiness Section */
+
+    .bussiness-Sec .bussiness-Con .bussiness-body-row {
+        padding: 0px 0px;
+    }
+
+    .bussiness-Con .bussiness-body .bussiness-features p {
+        font-size: 11px;
+
+    }
+
+    /* 6.  homePage-Choose Section */
+    .choose-Con_One {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choose-Con {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .choose-Con ul {
+        width: 180px;
+        margin: auto;
+    }
+
+    .choose-main-Con .row .choose-Con_One h6 {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .choose-main-Con .row .ord-One {
+        order: 1;
+    }
+
+    .choose-main-Con .row .ord-Two {
+        order: 2;
+        padding-bottom: 0px !important;
+    }
+
+    .choose-main-Con .row .ord-Three {
+        order: 3;
+        padding-bottom: 30px;
+    }
+    .choose-main-Con .row .choose-Con ul li {
+        width: 250px;
+    }
+
+    .choose-main-Con .choose-Con-body .ord-Two,
+    .choose-main-Con .choose-Con-body .ord-Three {
+        padding-left: 0px;
+    }
+
+    .choose-main-Con .row .choose-learn-btn-b-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choose-Sec .choose-learn-btn-a {
+        display: none !important;
+    }
+
+    .choose-Sec .choose-learn-btn-b {
+        display: flex !important;
+    }
+
+    /* 7. homePage-blog Section */
+    .blogs-Card .card-slide .blogCard-text h6 {
+        width: auto;
+        height: auto;
+        font-size: 8px;
+        line-height: 7px;
+    }
+
+    .blogs-Card .card-slide .blogCard-text p {
+        width: auto;
+        height: auto;
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    .blog-Sec .blog-Con .blog-T .row .col-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* About Page */
+
+    /* 1. aboutPage-getToKnow- Section */
+    .about-Con .right-about-Con .image-about {
+        border: none;
+        filter: none;
+        border-radius: inherit;
+        width: auto;
+    }
+
+    .hero .about-Con .left-about-Con {
+        margin-top: 40px;
+    }
+
+    .hero .about-Con .left-about-Con h5 {
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    .about-Con .right-about-Con .image-contact {
+        border: none;
+        filter: none;
+        border-radius: inherit;
+        width: auto;
+    }
+
+
+    .hero .about-Con .left-about-Con .qualified-buttons {
+        bottom: 0px !important;
+    }
+
+    /*5. aboutPage-customer-Section */
+
+    .customer-Sec h2 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+    /* Services Page */
+    .leads-Sec {
+        margin-bottom: 50px;
+    }
+
+    .leads-Con ul {
+        width: auto;
+        margin: auto;
+    }
+
+
+    /* Contact-page */
+    .contact-Con p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-Con p i {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-Con p.phone {
+        order: 1;
+        margin-bottom: 15px !important;
+    }
+
+    .contact-Con p.envelope {
+        order: 2;
+    }
+
+    .contact-Con p.map {
+        order: 3;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* Mortage Section */
+    .mortage-Sec .mortage-Con .mortage-title h6 {
+        width: auto;
+        height: auto;
+    }
+
+    /* footer */
+    .footer-section .footer-con .footer-body .row .company-contact p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer-con .footer-body .row .company-contact p span {
+        margin-top: 5px;
+    }
+
+    .footer-section .footer-con .footer-body .row h6 {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .footer-section .footer-con .footer-body .row p {
+        margin-bottom: 0px !important;
+        margin-top:5px !important;
+    }
+
+    .footer-section .footer-con .footer-body .row .icons-footer {
+        margin-top: 25px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .footer-section .footer-con .footer-body .row p a {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Help-Sec*/
+
+    .help-Sec .help-btn a {
+        width: 81px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .help-Sec p {
+        width: auto;
+        height: auto;
+        margin-left: 80px !important;
+    }
+
+    .help-Sec h3 {
+        font-size: 20px;
+    }
+
+    .help-Sec .help-buttons {
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    /* 2. homePage-Expert Quality Section */
+    .expert-quality-Con .expert-Title h3 {
+        font-size: 27px;
+    }
+
+    /* 5. homePage-Bussiness Section */
+
+    .bussiness-Con .bussiness-body .bussiness-features p {
+        font-size: 14px;
+
+    }
+
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 320px;
+    }
+    
+    .rightQ-Con .image-home {
+        background-image: url(images/home-Mobile.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: contain;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .leftQ-Con .leftQ-p {
+        position: absolute;
+        width: 356px;
+        height: 176px;
+        left: -4px;
+        top: 527px;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 6px;
+    }
+
+    .qualified-buttons {
+        position: relative;
+        top: 0px;
+        margin-top: 20px;
+
+    }
+
+
+
+    /* about page */
+
+    /* 3. aboutPage-Industries Section */
+
+    .industries-Con .row .Industries-title h6 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .industries-Con .row .Industries-title p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+
+
+    /* Contact-Page */
+
+    #contactForm .form-groupC input,
+    textarea,
+    .contact-btn {
+        width: -webkit-fill-available !important;
+    }
+
+    .contactForm .row .recptcha {
+        width: -webkit-fill-available !important;
+    }
+    #contactForm .recptcha input {
+        width: 16px !important;
+    }
+
+
+    /* SignUp Page*/
+
+    .form-group-Signup,
+    .signupForm .row .form-group input {
+        width: -webkit-fill-available !important;
+    }
+    .form-group {
+        width: -webkit-fill-available;
+    }
+    .form-body-Signup {
+        width: 95%;
+        height: 1420px !important;
+    }
+
+    .signupForm .row .col-md-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-signup {
+        background-image: url(images/Signup-Mobile.png);
+        height: 1600px !important;
+    }
+
+
+    /* SignIn page */
+    .img-signin {
+        background-image: url(images/Login-Mobile.png) !important;
+    }
+
+
+}
+
+@media (max-width: 630px) {
+
+     /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 220px;
+    }
+
+}
+
+@media (max-width: 578px) {
+
+    /* 1. homePage-Qualified Leads Section- */
+    .hero .qualified-Cont .leftQ-Con h1 {
+        font-size: 32px;
+        line-height: 40px;
+        right: 43px;
+    }
+
+    .hero .qualified-Cont .left-about-Con h1 {
+        font-size: 32px;
+        line-height: 40px;
+        right: 0px;
+    }
+
+    .qualified-buttons {
+        width: auto;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 400px;
+        top: 190px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con img {
+        top: 3px;
+        left: 125px;
+        width: 200px;
+        height: 160px;
+    }
+
+    .rightQ-Con .image-home {
+        height: auto;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h5 {
+        font-size: 16px !important;
+        width: 295px !important;
+        margin-right: 24px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul li img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul li span {
+        width: auto !important;
+        font-size: 13px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul li {
+        margin-left: 75px;
+    }
+
+    .expert-quality-Con .row .expertT p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    /* 2. homePage-Expert Quality Section */
+
+    .expert-quality-Con .quality-card {
+        margin-top: 8px;
+    }
+
+    .expert-quality-Con .row .expertT {
+        margin-bottom: 60px;
+    }
+
+    /* 7. homePage-blog Section */
+    .blogs-Card .card-slide .blogCard-text h6 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .blogs-Card .card-slide .blogCard-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .help-Con {
+        background-image: url(images/get-appointment-now-Mobile.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+
+
+    /* About page */
+
+
+    /* 3. aboutPage-Industries Section */
+
+    .industries-Con .row .Industries-title h6,
+    .industries-Con .row .Industries-title p {
+        text-align: center;
+    }
+
+    .industries-btn {
+        margin: auto;
+    }
+
+    .industries-btn {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Industries-Features .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Industries-Features .row .Industries-F {
+        border-right: 0px !important;
+    }
+
+    .industries-Con .row .Industries-Features .Industries-F h6 {
+        text-align: center;
+    }
+
+    .industries-Con .row .Industries-Features .industries-border {
+        border-bottom: 1px solid #1B8E9340 !important;
+    }
+
+    .industries-Con .row .Industries-Features .industries-margin {
+        margin-top: 20px;
+    }
+
+    /* servicesPage-Services-provide- Section */
+    .about-Con .right-about-Con .image-service {
+        background-image: url(images/service-Mobile.png);
+        border: none;
+        filter: none;
+        border-radius: inherit;
+    }
+    /* 2. service-Page leads Section */
+    .leads-Sec .row .leads-Con ul li p {
+        text-align: start !important;
+    }
+
+    /* 1. contactPage-Services-provide- Section */
+
+    .about-Con .right-about-Con .image-contact {
+        background-image: url(images/contact-Mobile.png);
+        border: none;
+        filter: none;
+        border-radius: inherit;
+    }
+
+    /* login Page */
+    .login-Sec .half .row .login-form {
+        width: 95%;
+    }
+
+    .login-Sec .half .row .login-form .form-T ,
+    .login-Sec .half .row .login-form .form-T .form-group input{
+        width: -webkit-fill-available !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+    
+    /* buttons */
+    .started-btn {
+        padding: 10px 30px;
+        width: 159px;
+        height: 38px;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .learn-white-btn {
+        padding: 9px 23px;
+        width: 115px;
+        height: 38px;
+    }
+
+    .learn-wh-btn a,
+    .learn-btn a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .learn-btn {
+        width: 135px;
+        height: 38px;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    /* help section */
+
+    .help-Sec .help-btn {
+        width: 149px;
+        height: 38px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .help-Sec .row {
+        padding: 55px 0px;
+    }
+    .help-Sec h3 {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .help-Sec p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 15px;
+        margin-left: auto !important;
+    }
+
+    .help-Sec .help-btn {
+        padding: 10px 34px;
+        width: 149px;
+        height: 38px;
+    }
+
+    .help-Sec .help-btn:hover {
+        width: 149px;
+        height: 38px;
+    }
+
+    .help-Sec .help-btn a {
+        width: 81px;
+        height: 18px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* navbar */
+    .navbar-Sec,
+    .navbar-Sec .cusnavbar{
+        height: 82px !important;
+    }
+
+    .cusnavbar .container .show{
+        top: 82px;
+    }
+
+    /* footer section */
+
+    .footer-section .footer-con .footer-body .row .follow {
+        margin-top: 25px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    .footer-section .footer-con .footer-body .row .company-contact .lead-footer {
+        width: 173px;
+        font-size: 14px;
+        line-height: 18px;
+        height: 36px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer-section .footer-con .footer-body .row .company-contact p i {
+        font-size: small !important;
+        margin-right: 0px !important;
+        line-height: 1 !important;
+    }
+
+    .footer-section .footer-con .footer-body .row .company-contact p span {
+        margin-top: 1px;
+    }
+
+
+    /* 1. homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con ul li img {
+        width: 14px;
+        height: 14px;
+        margin-top: 4px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .tab-h5 {
+        display: none !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .mob-h5 {
+        display: block !important;
+        width: 302px !important;
+        margin-right: 0px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 330px !important;
+        height: 170px;
+    }
+    
+    .first-sec .qualified-fluid .qualified-Cont {
+        margin: 0px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 356px !important;
+        height: 176px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        margin-left: 160px;
+        margin-bottom: 37px;
+    }
+
+    .first-sec {
+        margin-bottom: 115px;
+        top: 82px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con{
+        margin-top: 15px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul {
+        width: 318px;
+        height: 108px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul li {
+        margin-left: 0px !important;
+    }
+    .hero .qualified-Cont .leftQ-Con h5 {
+        line-height: 20px;
+        margin: 15px 0px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con img {
+        left: 68px !important;
+    }
+
+    .hero .qualified-Cont .leftQ-Con ul li span {
+        margin-right: 0px;
+        font-size: 14px
+    }
+
+    /* 2. homePage-Expert Quality Section */
+
+    .expert-quality-Con .row .expertT {
+        margin: 15px 0px;
+        padding-top: 0.5rem !important;
+        padding: 0px !important;
+    }
+    .expert-quality-Con .expert-Title h3 {
+        line-height: 40px;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .expert-quality-Con .expert-Title p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .expert-quality-Con .row .expertT h3 {
+        font-size: 22px;
+        line-height: 28px;
+        width: 302px;
+        height: 28px;
+        padding-left: initial;
+        text-align: center;
+    }
+
+    .expert-quality-Con .row .expertT p,
+    .expert-quality-Con .row .expertT p  {
+        font-size: 14px;
+        line-height: 20px;
+        width: 361px;
+        height: 90px;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+        width: auto;
+        height: auto;
+    }
+   
+    /* 4. homePage-What's Different Section */
+    
+    .different-Con .row .diff-Con-Two .diff-Two img {
+        margin-bottom: auto;
+        margin-right: 10px;
+    }
+    .different-Con .row .diff-Con_One h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* 5. homePage-Bussiness Section */
+
+    .bussiness-Sec .row h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .bussiness-Con .bussiness-footer .bussiness-footerT h6 {
+        font-size: 16px;
+        line-height: 20px;
+        width: 361px;
+        height: 60px;
+    }
+
+    .bussiness-Con .expand-reach-m {
+        margin-top: 25px !important;
+    }
+
+    .bussiness-Con .self-schedule-m {
+        margin-top: 0px !important;
+    }
+
+    .bussiness-Con .bussiness-body .bussiness-features .expand-reach-mob,
+    .bussiness-Con .bussiness-body .bussiness-features .self-sehedule-mob {
+        display: block;
+        margin-bottom: 15px !important;
+    }
+
+    .bussiness-Con .bussiness-body .bussiness-features .expand-reach,
+    .bussiness-Con .bussiness-body .bussiness-features .self-sehedule ,
+    .section-heading-tab{
+        display: none !important;
+    }
+
+    .bussiness-Con .bussiness-Title {
+        margin-bottom: 0px !important;
+    }
+    
+    .bussiness-Sec {
+        margin-top: 65px;
+    }
+
+    .section-heading-mob{
+        display: inline-block !important;
+        /* width: auto !important; */
+    }
+    .bussiness-btn{
+        margin-top: 0px !important;
+    }
+
+    /* -6.  homePage-Choose Section */
+    
+    .choose-Sec {
+        margin-top: 100px;
+    }
+
+    .choose-main-Con .row .choose-Con ul li span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .choose-main-Con .row .choose-Con ul {
+        padding-left: 12px;
+    }
+    .choose-main-Con .row .choose-Con_One h6 {
+        width: inherit;
+        padding-left: 30px;
+        font-size: 32px !important;
+        line-height: 45px !important;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    /* 7. homePage-blog Section */
+
+    .blog-Sec-b {
+        display: flex !important;
+        margin-top: 85px;
+    }
+
+    .blog-Sec-a {
+        display: none;
+    }
+
+    .blogs-Card .card-slide .blogCard-text a {
+        text-decoration: none;
+    }
+    .blog-Sec .blog-Con .blog-T h3 {
+        text-align: initial !important;
+    }
+
+    .blog-Sec .blog-Con .blog-T {
+        margin-bottom: 20px !important;
+    }
+
+    .blogs-Card .card-slide .blogCard-text h6,
+    .blogs-Card .card-slide .blogCard-text p {
+        padding: 0px 15px !important;
+    }
+    
+    .swiper-autoheight,
+    .swiper-autoheight .swiper-slide,
+    .blogs-Card .card-slide .image img {
+        height: 314px !important;
+    }
+
+    .swiper-css-mode>.swiper-wrapper>.swiper-slide {
+        border-radius: 10px;
+    }
+
+    .blogs-Card .card-slide .blogCard-text h6 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .blogs-Card .card-slide .blogCard-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .blog-Sec .blog-Con .blog-B .blogs-Card .card-slide {
+        width: auto;
+        height: auto;
+    }
+
+    .blog-Con .body-swip .previous-btn,
+    .blog-Con .body-swip .next-btn {
+        color: #F8F8F8;
+    }
+
+    
+    /* About Page */
+
+
+    .hero .about-Con .left-service h1 {
+        height: 104px;
+        top: 315px;
+    }
+
+    .hero .about-Con .left-contact h1 {
+        height: 110px;
+        top: 315px;
+    }
+
+    /* 2. aboutPage-Guninue-Sec */
+    .genuine-Con .expert-quality .expertA p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .genuine-Con .expert-quality .quotedA p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* 5. aboutPage-customer-Section */
+    .customer-Sec h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .customer-Con .body-swip .previous-btn,
+    .customer-Con .body-swip .next-btn {
+        color: #D85601;
+    }
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+    {
+        font-size: xx-large !important;
+    }
+    /* 3. aboutPage-Industries Section */
+    
+    .industries-Con .row .Industries-Features {
+        margin-top: 0px !important;
+    }
+
+    .industries-Con .row .Industries-Features .Industries-F {
+        width: 100% !important;
+    }
+
+    .industries-Con .row .Industries-Features .Industries-F p {
+        width: 302px;
+        height: 36px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+        
+    }
+
+    .industries-Con .row .Industries-Features .Industries-F .connect {
+        margin-left: auto !important;
+    }
+
+    .industries-Con .row .Industries-Features .industries-border-l {
+        border-bottom: none !important;
+    }
+
+    .industries-Con .row .Industries-title h6 {
+        font-size: 32px;
+    }
+
+    .industries-Con .row .Industries-title p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 35px !important;
+    }
+
+    .industries-btn-b {
+        display: flex !important;
+    }
+
+    .industries-btn-a {
+        display: none !important;
+    }
+
+    /* 1. aboutPage-getToKnow- Section */
+
+    .hero .about-Con .left-about-Con h1.about-mobile-text {
+        display: block !important;
+        height: 150px;
+    }
+
+    .hero .about-Con .left-about-Con h5 {
+        margin-top: 10px;
+        margin-right: 0px !important;
+        color: #4D4D4D;
+        /* width: auto !important; */
+    }
+
+    .hero .about-Con .left-about-Con {
+        margin-top: 10px;
+    }
+
+    .rightQ-Con .image-home .about-mobile {
+        height: 324px;
+    }
+
+    .hero .about-Con .left-about-Con h1.about-tab-text {
+        display: none !important;
+    }
+
+    .hero .about-Con .left-about-Con h1 {
+        position: absolute;
+        top: 155px !important;
+        left: -1px;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px !important;
+        line-height: 43px !important;
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 0px 6px 6px 0px;
+        width: 204px;
+    }
+
+    .hero .about-Con .left-about-Con h1 span.get-color {
+        color: #4D4D4D;
+    }
+
+    .genuine-Sec {
+        margin-top: 145px;
+    }
+
+    /* Service page */
+    
+    /* 1. servicesPage-Services-provide- Section */
+
+    .hero .services-Con .left-service h1 {
+        height: 110px !important;
+        top: 185px !important;
+    }
+    
+    /*  2. service-Page leads Section */
+    .customer-Sec-tab,
+    .leads-main-Sec .leads-Con-body .leads-Con_One .lead-p-tab {
+        display: none !important;
+    }
+
+    .leads-main-Sec .leads-Con-body .leads-Con_One .lead-p-mob {
+        font-size: 14px;
+        line-height: 18px;
+        display: inline-block !important;
+        width: inherit;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 0px;
+    }
+
+    .leads-main-Sec .leads-Con-body .leads-Con_One h6{
+        text-align: initial;
+    }
+
+    /* 4. servicesPage-customer-Section */
+
+    /* choose section */
+    .choose-main-Con .row .choose-Con ul li {
+        width: 322px;
+    }
+    .choose-main-Con .row .choose-Con ul li p {
+        margin-right: 45px;
+    }
+
+    .blogs-Card .swiper-slide .customer-card{
+        margin: 10px !important;
+    }
+
+    .customer-Sec .customer-body .customer{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 307px;
+    background: #FFFFFF;
+    }
+    .customer-Sec .customer-body .customer-card p{
+        padding: 0px 20px;
+    }
+
+
+    /* blog_index page  */
+    .blogPage-Sec .blogPage-title h6 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .blogPage-Sec .blogPage-title .blogImg{
+        height: 186px;
+        margin-top: 40px !important;
+    }
+
+    .blogPage-Sec .blogPage-title p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .blogPage-Sec .blogPage-body h6 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .blogPage-Sec .blogPage-body .blogOne-article ol li p, .blogPage-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+
+    /* mortage_Service page */
+
+    .mortage-Sec {
+        top: 0px !important;
+    }
+
+    .mortage-Sec .mortage-Con .mortage-title h2 {
+        font-size: 42px;
+        line-height: 53px;
+    }
+
+    .mortage-Sec .mortage-Con .mortage-title h6{
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 0px;
+    }
+
+    .mortage-Sec .mortage-Con .mortage-title p,
+    .mortage-Sec .mortage-Con .mortage-item p  {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mortage-Sec .mortage-Con .mortage-item{
+        margin-top: 10px !important;
+    }
+
+    .mortage-Sec .mortage-Con .mortage-item h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    /* Contact page */
+
+    /* 1. contactPage-Services-provide- Section */
+    .contact-Con .left-contact h1 {
+        top: 180px !important;
+    }
+    .contactForm-Sec{
+        margin-bottom: 115px;
+    }
+
+    .hero .about-Con .left-contact h1.about-mobile-text {
+        height: 110px;
+        line-height: 46px !important;
+    }
+
+    .contactForm-Sec .row .contact-form-block{
+        padding: 0px !important;
+    }
+
+
+    /* SignUp page */
+
+    .form-body-Signup img {
+        width: 254px;
+    }
+
+    .form-body-Signup h5 {
+        font-size: 22px;
+    }
+
+    .half .row .login-form a img {
+        width: 255px;
+    }
+
+    .form-group label{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+  
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 110px;
+    }
+}
+
+@media (max-width: 360px) {
+      
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 100px;
+        width: 339px !important;
+        height: 171px !important;
+    }
+
+    /* homePage-bussiness-sec */
+    .section-heading-mob{
+        width: auto !important;
+    }
+
+    /* signup form */
+    .form-body-Signup h5 strong {
+        font-size: 25px;
+    }
+
+    /* Service page customer sec */
+    .customer-Sec .customer-body .customer-card p{
+        width: auto;
+    }
+
+}
+
+@media (max-width: 333px) {
+
+    /* help-Section */
+    .help-Sec h3 {
+        font-size: 15px;
+    }
+
+    .help-Sec p {
+        font-size: 9px;
+    }
+
+    .help-Sec .help-btn {
+        padding: 6px 18px;
+        width: 137px;
+        height: 24px;
+    }
+
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 400px;
+        top: 90px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        width: 290px !important;
+        height: 150px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con .qualified .img-24by7 {
+        width: 126.04px;
+        height: 90px;
+    }
+
+    .hero .qualified-Cont .leftQ-Con h1 {
+        top: 4px;
+        right: 36px;
+    }
+    
+    .hero .qualified-Cont .leftQ-Con h5 {
+        margin-right: 0px !important;
+    }
+
+    .rightQ-Con .image-home {
+        height: 265px;
+    }
+
+    /* 1. aboutPage-getToKnow- Section */
+
+    .hero .about-Con .left-about-Con {
+        margin-top: 70px !important;
+    }
+
+    .hero .about-Con .left-about-Con h1 {
+        position: absolute;
+        top: 155px;
+    }
+
+}
+
+@media (max-width: 304px) {
+
+    /* about Page */
+    .hero .about-Con .left-about-Con h5 {
+        width: auto !important;
+        padding: 0px 10px;
+    }
+
+    /* signup page */
+
+    .form-body-Signup {
+        width: 95%;
+        height: 1475px !important;
+    }
+
+    .half .btn a {
+        font-size: 12px;
+    }
+
+    .form-body-Signup h5 strong {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 299px) {
+        /* navBar */
+        .cusnavbar .container .gigabitesoft-logo img {
+            width: 135.05px !important;
+            height: 20px;
+        }
+        .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+            padding: 0px !important;
+        }
+
+    /* buttons */
+    .started-btn,
+    .learn-white-btn,
+    .learn-btn  {
+        padding: 0px 0px !important;
+        width: 105px;
+        height: 30px;
+    }
+    .get-started-btn a,
+    .learn-wh-btn a,
+    .learn-y-btn a {
+        font-size: 8px !important;
+        line-height: 15px !important;
+    }
+    .help-Sec .help-btn,
+    .help-Sec .get-started-btn {
+        width: 87px;
+        height: 25px;
+    }
+
+    #contactForm .form-groupC button ,
+    .half .btn,
+    .signupForm .row .form-group-Signup-Submit .btn{
+        height: 29px;
+        padding: 0px !important;
+    }
+
+
+    /* homePage-Qualified Leads Section */
+
+    .hero .qualified-Cont .leftQ-Con .qualified {
+        top: 50px;
+    }
+    .hero .qualified-Cont .leftQ-Con {
+        margin-top: 0px !important;
+    }
+    .hero .qualified-Cont .leftQ-Con h5 {
+       width: auto !important;
+       font-size: 12px !important;
+       margin-top: 0px;
+       margin-bottom: 0px;
+    }
+    .hero .qualified-Cont .leftQ-Con ul {
+        width: auto !important;
+        padding: 0px 10px;
+        padding-left: 30px;
+    }
+    .hero .qualified-Cont .leftQ-Con ul li span{
+       font-size: 10px;
+    }
+
+    .expert-quality-Con .row .expertT{
+        padding: 0px !important;
+    }
+
+    .expert-quality-Con .row .expertT p,
+    .expert-quality-Con .row .expertT h3 {
+        width: auto !important;
+        height: auto !important;
+        padding: 0px 10px !important;
+        font-size: 12px;
+    }
+    .expert-quality-Con .row .expertT h3 {
+        font-size: 15px !important;
+    }
+    
+    /* 1. aboutPage-getToKnow- Section */
+
+    .hero .about-Con .left-about-Con h1.about-mobile-text {
+        display: block !important;
+    }
+
+    .rightQ-Con .image-home .about-mobile {
+        height: 324px;
+    }
+
+    .hero .about-Con .left-about-Con h1.about-tab-text,
+    .leads-main-Sec .leads-Con-body .leads-Con_One .lead-p-tab {
+        display: none !important;
+    }
+
+    .industries-Con .row .Industries-title p,
+    .customer-Sec .customer-body .customer-card p  {
+        font-size: 12px;
+    }
+    .industries-Con .row .Industries-Features .Industries-F p{
+        width: auto;
+        height: auto;
+    }
+    /* servicespage */
+    .choose-main-Con .row .choose-Con_One h6{
+        font-size: 23px !important;
+        line-height: 30px !important;
+    }
+    .choose-main-Con .row .choose-Con ul li p {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    /* contact-page */
+    .hero .qualified-Cont .leftQ-Con .mob-h5 {
+        width: auto !important;
+    }
+    .checkbox-primary{
+        font-size: 10px !important;
+    }
+
+}
+
+/* End */
